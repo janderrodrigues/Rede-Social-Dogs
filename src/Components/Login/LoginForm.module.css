@@ -1,0 +1,42 @@
+.form {
+  margin-bottom: 2rem;
+}
+
+.perdeu {
+  display: inline-block;
+  color: #272727;
+  padding: 0.5rem 0;
+  line-height: 1;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.perdeu:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+.cadastro {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.cadastro p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  font-family: var(--type-second);
+  line-height: 1;
+  font-size: 2rem;
+}
+
+.subtitle::after {
+  content: '';
+  display: block;
+  background: #2e2e2e;
+  height: 0.5rem;
+  width: 3rem;
+  border-radius: 0.2rem;
+}
